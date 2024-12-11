@@ -1,0 +1,591 @@
+.winner_home_content_wrapper{
+    padding: 0px 20px 60px 20px;
+}
+.real_estate_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: rgb(0, 52, 102);
+    border-radius: 8px;
+    margin-top: 30px;
+    display: flex;
+}
+.real_estate_content{
+    width: 100%;
+    max-width: 60%;
+    max-width: 60%;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+.bars_img{
+   position: absolute;
+   top: 10%;
+   right: -5%;
+   width: 100%;
+   max-width: 250px;
+   min-width: 250px;
+   height: 170px;
+}
+.bars_img img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+}
+.real_estate_img_div{
+    width: 100%;
+    max-width: 40%;
+    min-width: 40%;
+    overflow: hidden;
+    position: relative;
+}
+.real_estate_img_div::before{
+    content: '';
+    position: absolute;
+    height: 1.8px;
+    width: 109%;
+    top: 55%;
+    left: -34%;
+    background-color: white;
+    transform: rotate(119deg) skewY(0.5deg);
+}
+.real_estate_img_div img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.real-head{
+    font-family: Roboto;
+    letter-spacing: 5px;
+    font-size: 100px;
+    color: rgba(248, 108, 41, 1);
+    ;
+    font-weight: 1000;
+}
+.estate-head{
+    margin-top: -20px;
+    font-family: Roboto;
+    letter-spacing: 5px;
+    font-size: 100px;
+    color:white;
+    font-weight: 1000;
+}
+.estate-para{
+    margin-top: -10px;
+    font-family: Roboto;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.625);
+    font-weight: 400;
+    width: 100%;
+    max-width: 70%;
+    min-width: 70%;
+    margin-left: 5px;
+}
+.real-estate-icons-div-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.social-icons-img-div{
+    width: 100%;
+    max-width: 22px;
+    min-width: 22px;
+    height: 22px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-icons-img-div i{
+    font-size: 12px;
+    color: rgba(230, 230, 230, 1);
+    ;
+}
+.real-estate-contact-icons-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+.real-estate-contact-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+   column-gap: 10px;
+}
+.real-estate-contact-wrapper i{
+    color: white;
+    font-size: 16px
+}
+.real-estate-contact-wrapper p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+.search_cities_head{
+    font-family: IBM Plex Sans Condensed;
+font-size: 29px;
+font-weight: 700;
+margin-top: 40px;
+}
+.cities_name_container::-webkit-scrollbar{
+    display:none ;
+}
+.cities_name_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    column-gap: 25px;
+}
+.citites_div{
+    width: 100%;
+    max-width: 18.3%;
+    min-width: 18.3%;
+     height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    transition: 0.3s linear all;
+    cursor: pointer;
+}
+.img-class{
+    display: none;
+    transition: 0.2s linear all;
+}
+
+.citi-name-para{
+    font-family: Lato;
+font-size: 25px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+word-break: break-all
+;
+word-wrap: break-word;
+white-space: normal;
+}
+.cities_name_wrapper{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.citi_name_para_div{
+    display: flex ;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+  
+}
+.properties_name_para{
+    font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.87);
+display: none;
+opacity: 0;
+transition: 1s linear all;
+}
+.citites_div:hover{
+   height: 275px;
+}
+.citites_div:hover .img-class{
+    display: block;
+    opacity: 1;
+    transition: 0.2s linear all;;
+}
+.citites_div:hover .properties_name_para{
+    opacity: 1;
+    display: block;
+}
+.property_dealers_head{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.property_dealers_head button{
+    margin-top: 40px;
+    font-family: Raleway;
+font-size: 13px;
+font-weight: 600;
+border: none;
+background-color: black;
+color: white;
+border-radius: 8px;
+padding: 8px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+column-gap: 8px;
+}
+.property_dealers_head img{
+    width: 18px;
+}
+.properties_divs_wrapper::-webkit-scrollbar{
+    display: none;
+}
+.properties_divs_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 30px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.property_div{
+    width: 100%;
+    max-width: 32.5%;
+    min-width: 32.5%;
+    border: 1.06px solid rgba(209, 207, 207, 1);
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.property_img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 230px;
+    background-image: url('../../Images/Rectangle 20.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+.like_div_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    padding: 15px 0px 0px  0px;
+    height: 100%;
+}
+.like_heart_img_div{
+    width: 100%;
+    max-width: 27px;
+    min-width: 27px;
+    height: 27px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.like_heart_img_div img{
+    width: 15px;
+}
+.property_logo_div_wrapper{
+    width: 100%;
+    max-width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.property_logo_div_wrapper img{
+    width: 100%;
+    max-width: 70%;
+    min-width: 70%;
+}
+.property_details_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+}
+.property_name_para{
+    font-family: IBM Plex Sans Condensed;
+font-size: 20px;
+font-weight: 500;
+word-break: break-all;
+word-wrap: break-word;
+white-space: normal;
+vertical-align: top;
+}
+.rating_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1px 8px;
+    background-color: rgba(234, 234, 234, 0.375);
+    border-radius: 12px;
+    border: 1.06px solid rgba(229, 229, 229, 1);
+    column-gap: 5px;
+    box-shadow: 0px 5.52px 12px 0px rgba(0, 0, 0, 0.06) inset;
+}
+.rating_div img{
+    width: 100%;
+    max-width: 13px ;
+    min-width: 13px;
+}
+.rating_div p{
+    font-family: IBM Plex Sans Condensed;
+font-size: 14px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.7);
+
+}
+.property_details_location{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap:8px;
+    padding: 3px 10px 0px 10px;
+}
+.property_details_location img{
+    width: 15px;
+}
+.property_details_location  p{
+    font-family: IBM Plex Sans Condensed;
+font-size: 15px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.7);
+;
+
+}
+.winners_about_container{
+    padding: 70px 20px;
+    width: 100%;
+}
+.winners_about_wrapper{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    column-gap: 30px;
+
+}
+.winners_about_img_wrapper{
+    width: 100%;
+    max-width: 45%;
+    min-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.winners_about_content_wrapper{
+    width: 100%;
+    max-width: 55%;
+    min-width: 55%;
+    height: 100%;
+}
+.winners_about_img_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+    height: 390px;
+}
+.winners_about_img_div img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.about_winners_para_head{
+    font-family: IBM Plex Sans Condensed;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 5px;
+background-image: linear-gradient(84.13deg, #000000 -3.04%, #1467b9 63.88%);
+-webkit-background-clip: text;
+background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.about_winners_para{
+    font-family: IBM Plex Sans Condensed;
+font-size: 13px;
+font-weight: 450;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.848);
+}
+.winners_about_achievements_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.winners_about_logo_div{
+    width: 100%;
+    max-width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border: 1.05px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.winners_about_achievements{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+.winners_about_logo_div img{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
+}
+.about_numbers_para{
+    font-family: IBM Plex Sans Condensed;
+font-size: 18px;
+font-weight: 600;
+}
+.about_customers_para{
+    font-family: IBM Plex Sans Condensed;
+font-size: 14px;
+font-weight: 500;
+
+}
+.about_customers_para_2{
+    font-family: IBM Plex Sans Condensed;
+font-size: 14px;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.495);
+
+}
+.winners_about_small_img_div{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+    transform: translateX(-12%);
+}
+.small_about_img{
+    width: 100%;
+    max-width: 23%;
+    min-width: 23%;
+}
+.small_about_img img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+
+}
+.prefered_cities_head{
+    font-family: IBM Plex Sans Condensed;
+font-size: 29px;
+font-weight: 700;
+background-image: linear-gradient(84.13deg, #000000 -3.04%, #1467b9 63.88%);
+-webkit-background-clip: text;
+background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.prefered_city_form_wrapper{
+    border: 1px solid rgba(239, 239, 239, 1);
+    padding: 20px 15px 25px 15px;
+    border-radius: 10px;
+}
+.form_fields_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+}
+.form_label{
+    font-family: Lato;
+font-size: 15px;
+font-weight: 500;
+}
+.form_filed{
+    width: 100%;
+    max-width: 28.5%;
+    min-width: 28.5%;
+}
+.form_filed_input_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+   position: relative;
+}
+.form_filed_input_div img{
+    width: 10px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.form_filed_input_div input{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    height: 35px;
+    font-family: Outfit;
+font-size: 12px;
+font-weight: 400;
+padding: 0px 30px 0px 10px;
+border-radius: 8px;
+
+}
+.form_filed_input_div input:focus{
+    outline: none;
+}
+.search_property_btn{
+    width: 100%;
+    max-width: 140px;
+    min-width: 140px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: Raleway;
+font-size: 12px;
+font-weight: 600;
+border: none;
+color: white;
+background: rgba(0, 51, 102, 1);
+margin-top: 20px;
+margin-left: 5px;
+}
+.apartments_div{
+    margin-top: 40px;
+}
+.apartments_wrapper::-webkit-scrollbar{
+    display: none;
+}
+.apartments_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 25px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.apartment{
+    width: 100%;
+    max-width: 23.7%;
+    min-width: 23.7%;
+}
+.apartment img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
