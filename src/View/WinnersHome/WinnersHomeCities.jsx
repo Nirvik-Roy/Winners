@@ -23,6 +23,8 @@ const WinnersHomeCities = () => {
                      <p className='properties_name_para'>{i+2}{e.properities}+ Properties </p>
                 </div>
             </div>
+
+            
                 </>
             )
         })}

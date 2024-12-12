@@ -35,7 +35,36 @@ const data = [
         title:'Gaziabad',
         properities:'800'
     },
-    
+    {
+        id:1,
+        img:img,
+        title:'Gurgaon',
+        properities:'800'
+    },
+    {
+        id:2,
+        img:img1,
+         title:'South Delhi',
+        properities:'800'
+    },
+    {
+        id:3,
+        img:img2,
+         title:'West Delhi',
+        properities:'800'
+    },
+    {
+        id:4,
+        img:img3,
+         title:'Greater Noida',
+        properities:'800'
+    },
+    {
+        id:5,
+        img:img4,
+        title:'Gaziabad',
+        properities:'800'
+    },
     
 ]
 

@@ -20,6 +20,7 @@ const PreferedCity = () => {
             <label className='form_label'>Area</label>
             <div className='form_filed_input_div'>
                 <input type='text' placeholder=' Select Area' readOnly />
+                <img src={dropdown}></img>
             </div>
         </div>
 
@@ -27,6 +28,7 @@ const PreferedCity = () => {
             <label className='form_label'>Property Type</label>
             <div className='form_filed_input_div'>
                 <input type='text' placeholder='Select Property Type'  readOnly/>
+                <img src={dropdown}></img>
             </div>
         </div>
         

@@ -23,54 +23,54 @@ const Sidebar = () => {
 
            <div className='sidebar_icons_div_wrapper'>
 
-           <div style={{rowGap:'30px',display:'flex',flexDirection:'column',marginTop:'20px'}}>
+           <div style={{rowGap:'20px',display:'flex',flexDirection:'column',marginTop:'20px'}}>
            <NavLink to={'/'} className='sidebar_icons_wrapper'>
-            <img src={tick}></img>
+            <img className='icon_img' src={tick}></img>
                 <NavLink  className='sidebar_icons'>All Confirm Data</NavLink>
             </NavLink>
 
             <NavLink to={'/cc'} className='sidebar_icons_wrapper'>
-            <img src={plus}></img>
+            <img className='icon_img' src={plus}></img>
                 <NavLink to={'/cc'}  className='sidebar_icons'>Newly Added Data</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={disable}></img>
+            <img className='icon_img' src={disable}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>De active Data</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={heart}></img>
+            <img className='icon_img' src={heart}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>List of Favourites</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={comments}></img>
+            <img className='icon_img' src={comments}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>Comments</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={price}></img>
+            <img className='icon_img' src={price}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>Price List</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={profile}></img>
+            <img className='icon_img' src={profile}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>Profile</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={locality}></img>
+            <img className='icon_img' src={locality}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>Locality Wise Data</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={subLocality}></img>
+            <img className='icon_img' src={subLocality}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>Sub Locality</NavLink>
             </NavLink>
 
             <NavLink to={'/cd'} className='sidebar_icons_wrapper'>
-            <img src={logout}></img>
+            <img className='icon_img' src={logout}></img>
                 <NavLink to={'/cd'}  className='sidebar_icons'>Logout</NavLink>
             </NavLink>
             

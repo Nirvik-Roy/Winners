@@ -3,6 +3,8 @@ import logo from '../Images/Group 1171279193 (1).png'
 const Footer = () => {
   return (
     <>
+    <div className='uni_wrapper'>
+      <div className='uni_container'>
       <div className='footer_div_main'>
       <div className='footer_div_wrapper'>
       <div className='footer_div_1'>
@@ -81,6 +83,9 @@ const Footer = () => {
         </div>
        </div>
       </div>
+      </div>
+    </div>
+
     </>
   )
 }

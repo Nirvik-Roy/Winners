@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 h1, h2, h3, h4, h5, h6{
   margin: 0;
@@ -25,10 +24,11 @@ ul{
   width: 100%;
   max-width: 280px;
   min-width: 280px;
-  /* border-right: 1px solid #ccc; */
+  border-right: 1px solid #ccc;
   background-color: rgb(255, 255, 255);
   height: 100%;
-  position: absolute;
+  position: fixed;
+  height: 100vh;
   left: 0;
   top: 0;
   z-index: 999;
@@ -50,7 +50,8 @@ ul{
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
   text-decoration: none;
-  font-size: 16px
+  /* font-size: 16px */
+  font-size: 13px;
 
 }
 .sidebar_icons:hover{
@@ -61,8 +62,8 @@ ul{
 }
 .sidebar_icons_div_wrapper{
   padding: 0px 20px;
-  /* overflow-y: scroll;
-  height: 100vh; */
+  overflow-y: scroll;
+  height: 100vh;
 }
 .sidebar_icons_wrapper{
   display: flex;
@@ -82,9 +83,15 @@ ul{
 .sidebar_icons.active{
   font-weight: 600
 }
+.icon_img{
+  width: 100%;
+  max-width: 22px;
+  min-width: 22px;
+}
 .sidebar_upgrade_now_div_wrapper{
   padding-bottom: 100px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: 60px;
 }
 .sidebar_upgrade_now_div{
   width: 100%;
@@ -125,13 +132,12 @@ font-weight: 600;
 .uni_wrapper{
   display: flex;
   justify-content: end;
-  border-left: 1px solid #ccc;
+  overflow-x: hidden;
 }
 .uni_container{
   width: calc(100% - 280px) !important;
   max-width: calc(100% - 280px) !important;
   min-width: calc(100% - 280px) !important;
-  border-left: 1px solid #ccc;
   
 }
 
@@ -267,12 +273,15 @@ color: white;
 .footer_div_wrapper{
   display: flex;
   justify-items: space-between;
-  padding: 40px 100px;
+  /* padding: 40px 100px; */
+  padding: 40px 25px;
 }
 .footer_div_1{
   width: 100%;
-  max-width: 55%;
-  min-width: 55%;
+  /* max-width: 55%;
+  min-width: 55%; */
+  max-width: 50%;
+  min-width: 50%;
 }
 .footer_div_2{
   width: 100%;
@@ -358,7 +367,7 @@ color: rgba(255, 255, 255, 0.8);
 }
 .footer_div_copyright{
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 15px 100px 30px 100px;
+  padding: 15px 25px 30px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -368,4 +377,11 @@ color: rgba(255, 255, 255, 0.8);
 font-size: 12px;
 font-weight: 500;
 color: white;
+}
+.winner_home_content_wrapper .slick-dots li.slick-active button:before{
+  color:rgb(2, 31, 65) ;
+  font-size: 12px;
+}
+.winner_home_content_wrapper .slick-dots li{
+  margin: 0px -4px;
 }
