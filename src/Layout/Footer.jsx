@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from '../Images/Group 1171279193 (1).png'
+import { useLocation } from 'react-router-dom'
 const Footer = () => {
+  const location = useLocation()
   return (
     <>
     <div className='uni_wrapper'>
-      <div className='uni_container'>
+      <div className={location.pathname == '/community' ? 'w-100':'uni_container'}>
       <div className='footer_div_main'>
       <div className='footer_div_wrapper'>
       <div className='footer_div_1'>

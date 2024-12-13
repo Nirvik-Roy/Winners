@@ -6,6 +6,7 @@ import MainLayout from './MainLayout/MainLayout';
 import WinnersHome from './View/WinnersHome/WinnersHome';
 import Footer from './Layout/Footer';
 import PropertyList from './View/PropertyList/PropertyList';
+import Community from './View/Community/Community';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/' element={<MainLayout/>}>
         <Route path='/' element={<WinnersHome/>}/>
         <Route path='/propertylist' element={<PropertyList/>}/>
+        <Route path='/community' element={<Community/>}/>
       </Route>
   
     </Routes>

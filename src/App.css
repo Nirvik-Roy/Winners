@@ -163,6 +163,45 @@ font-weight: 600;
   border-bottom: 1px solid #ccc;
   height: 70px;
 }
+.nav_wrapper2{
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  height: 70px;
+}
+.admin_morning-div{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ column-gap: 20px;
+}
+.admin_morning-div img{
+  width: 100%;
+  max-width: 20px;
+  min-width: 20px;
+  cursor: pointer;
+}
+.header_location_div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 5px;
+}
+.header_location_div img{
+  width: 9px;
+  max-width: 9px;
+  min-width: 9px;
+}
+.header_location_div p{
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+color: rgba(0, 51, 102, 1);
+
+
+}
 .nav_links-div{
   display: flex;
   justify-content: flex-start;

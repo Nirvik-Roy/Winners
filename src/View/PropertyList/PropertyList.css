@@ -12,7 +12,6 @@
     column-gap: 12px;
     margin-top: 20px;
 }
-
 .column_div {
     box-shadow: 0px 2.16px 2.16px 0px rgba(0, 0, 0, 0.25);
     background: rgba(0, 0, 0, 0.05);
@@ -24,22 +23,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .column_div img {
     width: 100%;
     max-width: 60%;
     min-width: 60%;
 }
-
 .property_list_div_wrapper {
     display: flex;
     justify-content: flex-start;
     column-gap: 20px;
     margin-top: 20px;
 }
-
 .property_list_div {
     width: 100%;
     max-width: 70%;
@@ -48,9 +43,216 @@
     border: 1px solid rgba(209, 207, 207, 1);
     box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+}
+.property_grid_div{
+    width: 100%;
+    max-width: 70%;
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.property_grid_one{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1.03px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+}
+/* .property_grid_one::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    max-width: 20px;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 0 0 100% 0; 
+    border-bottom: 1.03px solid rgba(0, 0, 0, 0.15);
+    
+    z-index: 999;
+} */
+.plus_div_icon{
+    width: 100%;
+    max-width: 55px;
+    min-width: 55px;
+    height: 55px;
+    border-top: 1.03px solid rgba(0, 0, 0, 0.15);
+    border-left:1.03px solid rgba(0, 0, 0, 0.15) ;
+    border-radius: 8px 0px 0px 0px;
+    background-color: white;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus_div_icon img{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
+}
+.propety_grid_img{
+    width: 100%;
+    max-width: 37%;
+    min-width: 37%;
+    object-fit: cover;
+    border-radius: 8px 0px 0px 8px;
+    position: relative;
+}
+.heart_div_2{
+    width: 100%;
+    max-width: 35px;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.heart_div_2 img{
+    width: 100%;
+    max-width: 52%;
+    min-width: 52%;
+}
+.propety_grid_img_display{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    height: 100%;
+}
+.property_grid_data{
+    width: 100%;
+    max-width: 63%;
+    min-width: 63%;
+    padding: 20px 20px;
+}
+.property_grid_content{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 14px;
+}
+.property_data{
+    width: 100%;
+    max-width: 24%;
+    min-width: 24%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.property_data_para{
+    font-family: IBM Plex Sans Condensed;
+font-size: 15px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.7);
+}
+.property_data_para2{
+    font-family: IBM Plex Sans Condensed;
+font-size: 15px;
+font-weight: 500;
+color: rgba(0, 0, 0, 1);
+}
+.report_this_property_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.report_this_div{
+    display:flex ;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 7px;
+}
+.report_checkbox{
+    width: 100%;
+    max-width: 18px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background: rgba(217, 217, 217, 1);
+}
+.report_this_div p{
+    font-family: IBM Plex Sans Condensed;
+font-size: 13px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.7);
+}
+.remark_button_wrapper_div{
+    width: 100%;
+    max-width: 82%;
+    min-width: 82%;
+    margin-top: 10px;
+}
+.remark_button_wrapper_div p {
+    font-family: IBM Plex Sans Condensed;
+font-size: 12px;
+font-weight: 400;
+color: rgb(0, 0, 0);
+font-weight: 600;
+}
+.remark_button_wrapper_div input{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: Outfit;
+font-size: 14px;
+font-weight: 300;
+padding: 0px 10px;
+}
+.remark_button_wrapper_div input:focus{
+    outline: none;
+}
+.submit_btn_icon_wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 
 }
-
+.submit_btn_icon_wrapper button{
+    border: none;
+    font-family: Raleway;
+font-size: 12px;
+font-weight: 600;
+color: white;
+width: 100%;
+max-width: 95px;
+min-width: 95px;
+height: 42px;
+border-radius: 5px;
+background-color: black;
+}
+.icon_1_div{
+    width: 100%;
+    max-width: 35px;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_1_div img{
+    width: 100%;
+    max-width: 55%;
+    min-width: 55%;
+}
 .filter_property_div {
     width: 100%;
     max-width: 28.5%;
@@ -86,8 +288,6 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
 }
 
 .property_filter_form_wrapper {
@@ -125,9 +325,7 @@
     font-weight: 400;
     padding: 0px 20px 0px 10px;
     color: rgba(0, 0, 0, 0.4);
-
 }
-
 .form_field_property {
     margin-top: 15px;
 }
