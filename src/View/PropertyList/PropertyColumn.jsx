@@ -1,6 +1,7 @@
 import React from 'react'
 import PropertyTable from './PropertyTable'
 import plus from '../../Images/Vector@2x.png'
+import './PropertyList.css'
 const PropertyColumn = () => {
   return (
     <>

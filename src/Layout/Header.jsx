@@ -20,7 +20,7 @@ const Header = () => {
             <div>
             <p className='good-morning-para'>Good Morning, Swati</p>
             {location.pathname=='/community' ? '' : <p className='find-out-value-para'>Find out the value of your house and follow it over time</p>}
-           {location.pathname=='/'? '' : <div className='header_location_div'>
+           {location.pathname!='/community'? '' : <div className='header_location_div'>
               <img src={location2}></img>
               <p>New Delhi</p>
               <img src={arrow}></img>
@@ -28,7 +28,7 @@ const Header = () => {
             </div>
             
            </div>
-           <div className='d-flex' style={{columnGap:'10px'}}>
+           <div className='d-flex' style={{columnGap:'20px'}}>
            <div className='nav_links-div'>
             <NavLink className={'nav-links'} to={'/'}>Home</NavLink>
             <NavLink className={'nav-links'} to={'/cc'}>Properties</NavLink>

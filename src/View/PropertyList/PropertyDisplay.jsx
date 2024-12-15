@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import whatsapp from '../../Images/Group 534.png'
 import arrow2 from '../../Images/Vector (11).png'
 import heart from '../../Images/Vector (10).png'
+import './PropertyList.css'
 const PropertyDisplay = ({ e }) => {
     const [show, setShow] = useState(false)
     const [index, setIndex] = useState(null)

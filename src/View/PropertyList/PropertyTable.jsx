@@ -1,6 +1,7 @@
 import React from 'react'
 import TabelData from './TableData'
 import PropertyDisplay from './PropertyDisplay'
+import './PropertyList.css'
 const PropertyTable = () => {
   return (
     <>
