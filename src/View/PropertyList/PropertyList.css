@@ -277,6 +277,7 @@ background-color: black;
     width: 100%;
     max-width: 28.5%;
     min-width: 28.5%;
+    height: 100%;
     padding: 15px 0px;
     color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(209, 207, 207, 1);
@@ -416,29 +417,29 @@ table {
 th {
     color: rgba(0, 0, 0, 1);
     font-family: IBM Plex Sans Condensed;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 500;
     padding: 10px 20px 10px 20px;
 }
 .table_head_1 {
-    width: 180px;
-    min-width: 180px;
+    width: 160px;
+    min-width: 160px;
 }
 .table_head_2 {
-    width: 190px;
-    min-width: 190px;
+    width: 170px;
+    min-width: 170px;
 }
 .table_head_3 {
-    width: 170px;
-    min-width: 170px;
+    width: 140px;
+    min-width: 140px;
 }
 .table_head_4 {
-    width: 180px;
-    min-width: 180px;
+    width: 165px;
+    min-width: 165px;
 }
 .table_head_5 {
-    width: 170px;
-    min-width: 170px;
+    width: 140px;
+    min-width: 140px;
 }
 
 td {

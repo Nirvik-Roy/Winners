@@ -5,13 +5,15 @@ import heart from '../../Images/Vector (4).png'
 import logo from '../../Images/Group 1171279193.png'
 import star from '../../Images/star 1.png'
 import location from '../../Images/Vector (5).png'
+import { useNavigate } from 'react-router-dom'
 const WinnersPropertyDealers = () => {
+    const navigate =useNavigate()
   return (
     <>
      <div className='property_dealers_div'>
      <div className='property_dealers_head'> 
      <h1 className='search_cities_head'>Property Dealers Nearby </h1>
-     <button>View All Properties
+     <button onClick={(()=>navigate('/propertylist'))}>View All Properties
      <img src={smallarrow}></img></button>
      </div> 
      <div className='properties_divs_wrapper'>

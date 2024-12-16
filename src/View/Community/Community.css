@@ -1,5 +1,5 @@
 .community_wrapper{
-    height: 100vh;
+  
     padding: 30px 50px;
 }
 .community_cover_wrapper{
@@ -40,9 +40,6 @@
     width: 100%;
     max-width: 45%;
     min-width: 45%;
-    
-
-
 }
 .property_name_big_div{
     width: fit-content;
@@ -60,8 +57,6 @@
 font-size: 20px;
 font-weight: 900;
 color: rgba(0, 51, 102, 1);
-;
-
 }
 .property_big_logo_div{
     width: 100%;
@@ -76,4 +71,289 @@ color: rgba(0, 51, 102, 1);
     position: absolute;
     bottom: 25px;
     right: 20px;
+}
+.community_property_details_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.property_img_details_div{
+    width: 100%;
+    max-width: 63%;
+    min-width: 63%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}.property_img_details_inside_content_wrapper{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 12px 20px 20px 20px;
+}
+
+.property_img_details_inside_content_wrapper2{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+}
+.community_property_img5{
+    
+    width: 100%;
+    max-width: 38%;
+    min-width: 38%;
+    border-radius: 10px 0px 0px 10px;
+}
+.community_property_details_wrapper5{
+    width: 100%;
+    max-width: 62%;
+    min-width: 62%;
+    border-radius: 0px 10px 10px 0px;
+}
+.property_icons_div5{
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.community_property_img5 img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.community_property_icons_div_wrapper{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    height: 50px;
+}
+.community_property_details_5{
+    padding: 10px 20px;
+    display: flex;
+    column-gap: 15px;
+}
+.community_property_5{
+    width: 100%;
+    max-width: 23%;
+    min-width: 23%;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.community_property_img{
+    height: 440px;
+    border-radius: 10px;
+    position: relative;
+}
+.community_property_name_div{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    width: fit-content;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 7px 20px;
+    border-radius: 25px;
+
+}
+.community_property_logo_div_wrapper5{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    width: 100%;
+    max-width: 80px;
+    min-width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.community_property_logo_div_wrapper5 img{
+    width: 100%;
+    max-width: 75%;
+    min-width: 75%
+}
+.community_property_name_div p{
+    font-family: Lato;
+font-size: 18.66px;
+font-weight: 900;
+color: rgba(0, 51, 102, 1);
+}
+/* .community_property_img img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+} */
+.client_property_details{
+    width: 100%;
+    max-width: 35%;
+    min-width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.client_in_hand_wrapper{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    height: 100%;
+    border-radius: 10px;
+}
+.client_head_div{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 15px 20px;
+}
+.client_head_div h3{
+    font-family: Lato;
+font-size: 17px;
+font-weight: 500;
+
+}
+.community_input_wrapper_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.community_input_wrapper_div input{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    height: 40px;
+    margin-top: 8px;
+    font-family: Outfit;
+font-size: 15px;
+font-weight: 400;
+
+}
+
+.community_input_wrapper_div textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    height: 140px;
+    margin-top: 8px;
+    font-family: Outfit;
+font-size: 15px;
+font-weight: 400;
+resize: none;
+}
+.community_form_submit_div button{
+    font-family: Raleway;
+font-size: 13px;
+font-weight: 600;
+color: white;
+background-color: black;
+border-radius: 8px;
+    border: none;
+    width: 100%;
+    max-width: 130px;
+    min-width: 130px;
+    height: 38px;
+}
+.community_form_label{
+    font-family: Lato;
+font-size: 14px;
+font-weight: 600;
+color: rgba(43, 42, 42, 0.92);
+
+}
+.community_form_wrapper_div{
+    padding: 10px 20px;
+}
+.left_form_wrappr{
+    width: 100%;
+    max-width: 48.5%;
+    min-width: 48.5%;
+}
+.right_form_wrappr{
+    width: 100%;
+    max-width: 48.5%;
+    min-width: 48.5%;
+}
+.community_input_flex_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.community_property_names{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 10px;
+}
+.first_span{
+    font-family: IBM Plex Sans Condensed;
+font-size: 14px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.7);
+
+}
+.second_span{
+    font-family: IBM Plex Sans Condensed;
+font-size: 14px;
+font-weight: 500;
+color: black;
+}
+.like_skip_div_wrapper{
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px 0px 0px;
+}
+.community_property_icons_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+}
+.icon_no_1{
+    width: 100%;
+    max-width: 37px;
+    min-width: 37px;
+    height: 37px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_no_1 img{
+    width: 100%;
+    max-width: 50%;
+    min-width: 50%;
+}
+.skip_btn{
+    font-family: Lato;
+font-size: 13px;
+font-weight: 500;
+color: rgba(121, 121, 121, 1);
+border: 1.33px solid rgba(121, 121, 121, 1);
+width: 100%;
+max-width: 80px;
+min-width: 80px;
+height: 32px;
+border-radius: 18px;
+}
+.like_skip_button_div{
+    display: flex;
+    column-gap: 5px;
 }

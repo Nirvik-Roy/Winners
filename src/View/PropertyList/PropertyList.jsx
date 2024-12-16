@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './PropertyList.css'
 import column from '../../Images/Vector (9).png'
 import grid from '../../Images/Group 1171279337.png'
@@ -18,6 +18,9 @@ const PropertyList = () => {
     const value = event.target.value;
     setProgress(value);
   };
+  useEffect(()=>{
+window.scrollTo({top:0,behavior:'instant'})
+  },[])
   return (
     <>
       <div className='uni_wrapper'>

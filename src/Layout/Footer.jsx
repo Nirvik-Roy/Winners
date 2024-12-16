@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='uni_wrapper'>
       <div className={location.pathname == '/community' ? 'w-100':'uni_container'}>
       <div className='footer_div_main'>
-      <div className='footer_div_wrapper'>
+      <div className={location.pathname == '/community' ? 'footer_div_wrapper2':'footer_div_wrapper'}>
       <div className='footer_div_1'>
         <div className='footer_logo_div'>
           <img src={logo}></img>

@@ -2,7 +2,7 @@ import React from 'react'
 import cover from '../../Images/Rectangle 20 (2).png'
 import cross from '../../Images/Vector (14).png'
 import logo from '../../Images/Group 1171279193.png'
-const CommunityCover = () => {
+const CommunityCover = ({handleChange}) => {
   return (
     <>
       <div className='community_wrapper'>
@@ -10,7 +10,7 @@ const CommunityCover = () => {
             <div className='community_cover_img_div'>
                 <img style={{width:'100%',maxWidth:'100%',minWidth:'100%',height:'100%',objectFit:'cover',borderRadius:'8px'}} src={cover}></img>
                 <div className='cross_div'>
-                    <img src={cross}></img>
+                    <img onClick={(()=>handleChange())} src={cross}></img>
                 </div>
                 <div className='property_name_big_div'>
                     <p>Mahavir Property</p>

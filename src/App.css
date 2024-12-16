@@ -206,13 +206,13 @@ color: rgba(0, 51, 102, 1);
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 .nav-links{
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
 font-family: IBM Plex Sans Condensed;
-font-size: 14px;
+font-size: 13px;
 font-weight: 500;
 position: relative;
 }
@@ -314,6 +314,12 @@ color: white;
   justify-items: space-between;
   /* padding: 40px 100px; */
   padding: 40px 25px;
+}
+.footer_div_wrapper2{
+  display: flex;
+  justify-items: space-between;
+  /* padding: 40px 100px; */
+  padding: 40px 50px;
 }
 .footer_div_1{
   width: 100%;
