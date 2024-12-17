@@ -166,30 +166,32 @@ margin-top: 40px;
     cursor: pointer;
 }
 .img-class{
-    display: none;
+    
     transition: 0.2s linear all;
 }
 
 .citi-name-para{
     font-family: Lato;
-font-size: 25px;
+font-size: 22px;
 font-weight: 600;
 color: rgba(255, 255, 255, 1);
-word-break: break-all
-;
+word-break: break-all;
 word-wrap: break-word;
 white-space: normal;
 }
 .cities_name_wrapper{
     padding-left: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
 }
 .citi_name_para_div{
     display: flex ;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 5px;
-  
+    padding: 0px 15px 5px 0px;
 }
 .properties_name_para{
     font-family: Lato;
@@ -200,7 +202,7 @@ display: none;
 opacity: 0;
 transition: 1s linear all;
 }
-.citites_div:hover{
+/* .citites_div:hover{
    height: 275px;
 }
 .citites_div:hover .img-class{
@@ -211,7 +213,7 @@ transition: 1s linear all;
 .citites_div:hover .properties_name_para{
     opacity: 1;
     display: block;
-}
+} */
 .property_dealers_head{
     display:flex ;
     justify-content: space-between;

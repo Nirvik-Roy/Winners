@@ -8,10 +8,16 @@ import send from '../../Images/Vector (11).png'
 import img2 from '../../Images/Rectangle 21.png'
 import img3 from '../../Images/Rectangle 20 (3).png'
 import logo from '../../Images/Group 1171279193.png'
+import trash from '../../Images/Vector (15).png'
 const Community = () => {
   const [show,setShow]=useState(false)
+  const [clientShow,setClientShow]=useState(false)
   const handleChange = () =>{
     setShow(!show)
+  }
+  const submitButtonfunc = (e) =>{
+   e.preventDefault();
+   setClientShow(true)
   }
   return (
     <>
@@ -69,7 +75,133 @@ const Community = () => {
               </div>
             </div>
           </div>
-          <div>
+
+         
+        </div>
+        <div className='client_property_details'>
+
+{ clientShow &&       <div className='client_in_hand_wrapper'>
+          <div className='client_head_div'>
+          <h3>Client In Hand (Requirement) </h3>
+          </div>
+          <div className='community_form_wrapper_div'>
+          <form >
+                <div className='right_client_hand_details_div' style={{display:'flex',flexDirection:'column',rowGap:'8px'}}>
+                <div className='d-flex justify-content-between align-items-center'>
+                <div className='d-flex justify-content-start align-items-center' style={{columnGap:'8px'}}>
+                    <p className='preferred_para'>Preferred Localities:</p>
+                    <p className='city_name'>Gurgaon, Noida, New Delhi</p>
+                  </div>
+                  <div className='delete_icon_div'>
+                           <img src={trash}></img>    
+                  </div>
+                </div>
+                <div className='d-flex justify-content-start align-items-center' style={{columnGap:'8px'}}>
+                    <p className='preferred_para'>Budget:</p>
+                    <p className='city_name'>10 Lakhs-20 Lakhs</p>
+                  </div>
+
+                  <div className='d-flex justify-content-start align-items-center' style={{columnGap:'8px'}}>
+                    <p className='preferred_para'>Area:</p>
+                    <p className='city_name'>333Y</p>
+                  </div>
+
+
+                  <div className='d-flex justify-content-start align-items-center' style={{columnGap:'8px'}}>
+                    <p className='preferred_para'>Floor:</p>
+                    <p className='city_name'>GF</p>
+                  </div>
+
+                  <div className='d-flex justify-content-start align-items-center' style={{columnGap:'8px'}}>
+                    <p className='preferred_para'>BHK:</p>
+                    <p className='city_name'>3</p>
+                  </div>
+                </div>
+               </form>
+          </div>
+
+          </div>}
+          <div className='client_in_hand_wrapper'>
+          <div className='client_head_div'>
+          <h3>Client In Hand (Requirement) </h3>
+          </div>
+          <div className='community_form_wrapper_div'>
+          <form style={{display:'flex',flexDirection:'column',rowGap:'10px'}}>
+                <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Preferred Localities</label>
+                  <div className='community_input_wrapper_div'>
+                    <input placeholder='Enter Preferred Localities' type='text'></input>
+                  </div>
+                </div>
+
+                <div className='community_input_flex_wrapper'>
+                  <div className='left_form_wrappr'>
+                  <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Min. Budget</label>
+                  <div className='community_input_wrapper_div'>
+                    <input placeholder='Enter Amount' type='text'></input>
+                  </div>
+                </div>
+                  </div>
+                  <div className='right_form_wrapper'>
+
+                  <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Max. Budget</label>
+                  <div className='community_input_wrapper_div'>
+                    <input placeholder='Enter Amount' type='text'></input>
+                  </div>
+                </div>
+                  </div>
+                </div> 
+
+                <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Floor</label>
+                  <div className='community_input_wrapper_div'>
+                    <input placeholder='Enter Floor' type='text'></input>
+                  </div>
+                </div>
+
+                <div className='community_input_flex_wrapper'>
+                  <div className='left_form_wrappr'>
+                  <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Min. BHK</label>
+                  <div className='community_input_wrapper_div'>
+                    <input placeholder='Enter BHK' type='text'></input>
+                  </div>
+                </div>
+                  </div>
+                  <div className='right_form_wrapper'>
+
+                  <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Max. BHK</label>
+                  <div className='community_input_wrapper_div'>
+                    <input placeholder='Enter BHK' type='text'></input>
+                  </div>
+                </div>
+
+                
+                  </div>
+                </div> 
+                <div className='community_form_filed_wrapper'>
+                  <label className='community_form_label'>Fill Your Complete Requirement</label>
+                  <div className='community_input_wrapper_div'>
+                    <textarea placeholder='Enter Preferred Localities' type='text'></textarea>
+                  </div>
+                </div>
+                  <div className='community_form_submit_div'>
+                    <button onClick={((e)=>submitButtonfunc(e))}>Submit</button>
+                  </div>
+               </form>
+          </div>
+
+          </div>
+
+
+        </div>
+       </div>
+       <div className='community_property_details_wrapper2'>
+       <div className='property_img_details_div2'>
+       <div>
           <h1 className='prefered_cities_head2'>Property In Hand (Requirement)</h1>
 <div style={{display:'flex',flexDirection:'column',rowGap:'20px'}}>
 {[img,img2,img3].map((e,i)=>{
@@ -162,85 +294,10 @@ const Community = () => {
 
           
           </div>
-         
-        </div>
-        <div className='client_property_details'>
-          <div className='client_in_hand_wrapper'>
-          <div className='client_head_div'>
-          <h3>Client In Hand (Requirement) </h3>
-          </div>
-          <div className='community_form_wrapper_div'>
-          <form style={{display:'flex',flexDirection:'column',rowGap:'10px'}}>
-                <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Preferred Localities</label>
-                  <div className='community_input_wrapper_div'>
-                    <input placeholder='Enter Preferred Localities' type='text'></input>
-                  </div>
-                </div>
+       </div>
 
-                <div className='community_input_flex_wrapper'>
-                  <div className='left_form_wrappr'>
-                  <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Min. Budget</label>
-                  <div className='community_input_wrapper_div'>
-                    <input placeholder='Enter Amount' type='text'></input>
-                  </div>
-                </div>
-                  </div>
-                  <div className='right_form_wrapper'>
-
-                  <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Max. Budget</label>
-                  <div className='community_input_wrapper_div'>
-                    <input placeholder='Enter Amount' type='text'></input>
-                  </div>
-                </div>
-                  </div>
-                </div> 
-
-                <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Floor</label>
-                  <div className='community_input_wrapper_div'>
-                    <input placeholder='Enter Floor' type='text'></input>
-                  </div>
-                </div>
-
-                <div className='community_input_flex_wrapper'>
-                  <div className='left_form_wrappr'>
-                  <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Min. BHK</label>
-                  <div className='community_input_wrapper_div'>
-                    <input placeholder='Enter BHK' type='text'></input>
-                  </div>
-                </div>
-                  </div>
-                  <div className='right_form_wrapper'>
-
-                  <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Max. BHK</label>
-                  <div className='community_input_wrapper_div'>
-                    <input placeholder='Enter BHK' type='text'></input>
-                  </div>
-                </div>
-
-                
-                  </div>
-                </div> 
-                <div className='community_form_filed_wrapper'>
-                  <label className='community_form_label'>Fill Your Complete Requirement</label>
-                  <div className='community_input_wrapper_div'>
-                    <textarea placeholder='Enter Preferred Localities' type='text'></textarea>
-                  </div>
-                </div>
-                  <div className='community_form_submit_div'>
-                    <button>Submit</button>
-                  </div>
-               </form>
-          </div>
-
-          </div>
-
-          <div className='client_in_hand_wrapper'>
+<div className='client_property_details2'>
+<div className='client_in_hand_wrapper'>
           <div className='client_head_div'>
           <h3>Property In Hand (Requirement) </h3>
           </div>
@@ -314,7 +371,8 @@ const Community = () => {
           </div>
 
           </div>
-        </div>
+</div>
+         
        </div>
     </div>
    </>}
